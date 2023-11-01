@@ -1,5 +1,5 @@
 class Carro:
-    def __init__(self, marca, modelo, ano):
+    def __init__(self, marca, modelo, ano): #atributos
         self.marca = marca
         self.modelo = modelo
         self.ano = ano
