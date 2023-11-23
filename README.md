@@ -2,7 +2,7 @@
     <li><strong>Classes e Objetos:</strong>
         <ul>
             <li>Crie uma classe "Carro" com atributos como marca, modelo e ano. ✔️</li>
-            <li>Instancie objetos dessa classe e acesse seus atributos.</li>
+            <li>Instancie objetos dessa classe e acesse seus atributos. ✔️</li>
         </ul>
     </li>
     <li><strong>Encapsulamento:</strong>
