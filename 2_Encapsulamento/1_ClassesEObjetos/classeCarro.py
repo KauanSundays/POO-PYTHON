@@ -11,7 +11,7 @@ class Carro:
 # instanciando
 meuCarro = Carro(marca='gol', modelo='rebaixado', ano=2009)
 
-# Acessando o atributo público diretamente
+# Acessando os atributos diretamente
 print("Marca:", meuCarro.marca)
 print("Modelo:", meuCarro.modelo)
 
