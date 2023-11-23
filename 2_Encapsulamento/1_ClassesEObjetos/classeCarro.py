@@ -1,13 +1,19 @@
 class Carro:
-    def __init__(self, marca, modelo, ano):  # atributos
-        self.marca = marca
-        self.modelo = modelo
-        self.ano = ano
+    def __init__(self, marca, modelo, ano):
+        self.marca = marca  # atributo público
+        self.modelo = modelo  # atributo público
+        self._ano = ano  # atributo privado
+
+    def obter_ano(self):
+        return self._ano
+
 
 # instanciando
 meuCarro = Carro(marca='gol', modelo='rebaixado', ano=2009)
 
-# A partir deste ponto, você pode acessar os atributos do carro assim:
+# Acessando o atributo público diretamente
 print("Marca:", meuCarro.marca)
 print("Modelo:", meuCarro.modelo)
-print("Ano:", meuCarro.ano)
+
+# Acessando o atributo privado através do método de acesso
+print("Ano:", meuCarro.obter_ano())
