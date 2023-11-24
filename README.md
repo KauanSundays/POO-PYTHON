@@ -1,4 +1,4 @@
-<ol>6
+<ol>7
     <li><strong>Classes e Objetos:</strong>
         <ul>
             <li>Crie uma classe "Carro" com atributos como marca, modelo e ano. ✔️</li>
